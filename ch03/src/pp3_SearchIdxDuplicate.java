@@ -34,4 +34,6 @@ public class pp3_SearchIdxDuplicate {
             for (int i = 0; i < count; i++)
                 System.out.println("그 값은 " + "x[" + y[i] + "]에 있습니다.");
     }
+
+
 }
