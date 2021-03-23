@@ -37,7 +37,7 @@ public class Gstack<E> {
         return stk[--ptr];
     }
 
-    public E peek() throws Gtack.EmptyGstackException {
+    public E peek() throws Gstack.EmptyGstackException {
         if (ptr <= 0) throw new Gstack.EmptyGstackException();
         return stk[ptr-1];
     }
